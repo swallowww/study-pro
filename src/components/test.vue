@@ -3,6 +3,7 @@
     <p class="show">name:{{$store.state.User.name}}</p>
     <input type="text" placeholder="请输入新名字" v-model="renameValue">
     <input type="button" value="确定" v-on:click="rename">
+    <p>{{$store.getters.combName('!')}}</p>
   </div>
 </template>
 
@@ -15,7 +16,7 @@ export default {
     };
   },
   mounted() {
-
+    
   },
   methods: {
     rename() {
