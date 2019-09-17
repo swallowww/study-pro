@@ -5,7 +5,7 @@ Vue.use(VueRouter)
 import Home from '../pages/home.vue'
 import Tips from '../pages/tips.vue'
 import Sample1 from '../components/sample/test1.vue'
-import Sample2 from '../pages/echartsTest.vue'
+import Sample2 from '../pages/Sample2.vue'
 
 const router = new VueRouter({
     routes: [

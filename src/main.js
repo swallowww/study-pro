@@ -4,12 +4,14 @@ import Vuex from 'vuex'
 import echarts from 'echarts'
 import store from './store'
 import router from './router'
+import axios from 'axios'
 
 import './assets/css/common.less'
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
 
+Vue.prototype.axios = axios
 Vue.prototype.$echarts = echarts
 
 new Vue({
